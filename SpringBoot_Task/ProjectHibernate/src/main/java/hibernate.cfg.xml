@@ -12,6 +12,9 @@
 		<property name="hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
-	<mapping class="com.tut.Student" />
+		<mapping class="com.tut.Student" />
+		<mapping class="com.tut.Address" />
+		<mapping class="com.mapping.Question" />
+		<mapping class="com.mapping.Answer" />
 	</session-factory>
 </hibernate-configuration>
