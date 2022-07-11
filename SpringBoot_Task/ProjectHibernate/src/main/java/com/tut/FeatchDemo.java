@@ -19,8 +19,8 @@ public class FeatchDemo {
 	
 	
 		
-	Address address=session.load(Address.class,1);
-	System.out.println(address);
+	//Address address=session.load(Address.class,1);
+	//System.out.println(address);
 	
 
 	
